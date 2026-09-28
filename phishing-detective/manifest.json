@@ -1,0 +1,13 @@
+{
+  "name": "PhishShield",
+  "short_name": "PhishShield",
+  "description": "Paste an email or message and find out if it's phishing.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f0f4f8",
+  "theme_color": "#1f3a5f",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
