@@ -1,7 +1,7 @@
 # 🛡️ PhishShield
 
 Paste an email or message and find out if it's phishing, and why.
-Built for Smart India Hackathon 2026, Track 4: Cybersecurity Made Simple (PS1: Phishing Detective).
+Track 4: Cybersecurity Made Simple (PS1: Phishing Detective).
 
 **Live demo:** https://[your-site].netlify.app
 
