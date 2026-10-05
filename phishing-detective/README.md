@@ -3,7 +3,7 @@
 Paste an email or message and find out if it's phishing, and why.
 Track 4: Cybersecurity Made Simple (PS1: Phishing Detective).
 
-**Live demo:** https://[your-site].netlify.app
+**Live demo:** https://phishshield18136.netlify.app
 
 ## Features
 - Classifies messages as Safe, Suspicious, or High Risk
@@ -21,10 +21,12 @@ Eight weighted rule-based indicators are matched with regular expressions.
 Score 0-2 = Safe, 3-5 = Suspicious, 6+ = High Risk.
 
 ## Team
-| Name | GitHub | Contribution |
-|------|--------|--------------|
-| [Your name] | [@yourusername](https://github.com/yourusername) | [e.g. detection logic] |
-| [Teammate] | [@theirusername](https://github.com/theirusername) | [e.g. UI design] |
+| Name | GitHub |
+|------|--------|
+| Rouble Aklujkar | [@rouble-akl](https://github.com/rouble-akl) |
+| Tejashree Varshindkar | [@tejashree-v18](https://github.com/tejashree-v18) |
+| Sanika Gaund | [@sanikagaund-cmyk](https://github.com/sanikagaund-cmyk) |
+| Kashmira Waghulkar | [@rouble-akl](https://github.com/rouble-akl) |
 
 ## Run locally
 Open `index.html` with VS Code Live Server.
