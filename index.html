@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhishShield | Phishing Detective</title>
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1f3a5f">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, Arial, sans-serif; background: #f0f4f8; color: #1f2a44; }
+    header { background: #1f3a5f; color: #fff; padding: 24px 16px; text-align: center; }
+    header h1 { margin: 0; font-size: 28px; }
+    header p { margin: 6px 0 0; opacity: .85; }
+    main { max-width: 700px; margin: 24px auto; padding: 0 16px; }
+    .card { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+    label { font-weight: 600; display: block; margin: 12px 0 6px; }
+    input, textarea { width: 100%; padding: 10px; border: 1px solid #c5cfdb; border-radius: 8px; font-size: 15px; font-family: inherit; }
+    button { margin-top: 16px; width: 100%; padding: 12px; background: #2f6fed; color: #fff; border: 0; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; }
+    button:hover { background: #2459c4; }
+    #result { margin-top: 20px; }
+    #result:not(:empty) { border-top: 1px solid #e3e8ef; padding-top: 16px; }
+    #result h2 { margin: 0 0 8px; }
+    footer { text-align: center; font-size: 13px; color: #6b7a90; margin: 24px 0; }
+    .flag { background:#fff7f0; border-left:5px solid #f0a020; border-radius:8px; padding:12px 14px; margin:12px 0; }
+.flag-title { font-weight:700; }
+.pts { float:right; background:#1f3a5f; color:#fff; border-radius:12px; padding:0 10px; font-size:13px; }
+.flag-found code { background:#eef2f7; padding:2px 6px; border-radius:4px; word-break:break-word; }
+.flag p { margin:6px 0 0; line-height:1.5; }
+#result h3 { margin-top:20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🛡️ PhishShield</h1>
+    <p>Paste an email or message. Find out if it's phishing, and why.</p>
+  </header>
+  <main>
+    <div class="card">
+      <label for="sender">From (sender)</label>
+      <input id="sender" placeholder="e.g. PayPal Support &lt;help@gmail.com&gt;">
+      <label for="message">Message</label>
+      <textarea id="message" rows="9" placeholder="Paste the email or message here..."></textarea>
+      <button id="analyzeBtn">Analyze</button>
+      <div id="result"></div>
+    </div>
+  </main>
+  <footer>PhishShield · Cybersecurity Made Simple</footer>
+  <script src="script.js"></script>
+</body>
+</html>
