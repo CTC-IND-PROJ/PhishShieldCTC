@@ -26,7 +26,7 @@ Score 0-2 = Safe, 3-5 = Suspicious, 6+ = High Risk.
 | Rouble Aklujkar | [@rouble-akl](https://github.com/rouble-akl) |
 | Tejashree Varshindkar | [@tejashree-v18](https://github.com/tejashree-v18) |
 | Sanika Gaund | [@sanikagaund-cmyk](https://github.com/sanikagaund-cmyk) |
-| Kashmira Waghulkar | [@rouble-akl](https://github.com/rouble-akl) |
+| Kashmira Waghulkar | [@kashmiraww](https://github.com/kashmiraww) |
 
 ## Run locally
 Open `index.html` with VS Code Live Server.
